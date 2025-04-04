@@ -1,0 +1,11 @@
+export default function Home() {
+  return (
+    <div className="min-h-screen flex flex-col items-center justify-center text-center p-8">
+      <h1 className="text-3xl font-bold mb-6">Bienvenue sur RecoLink</h1>
+      <div className="space-y-4">
+        <a href="/apporteur/dashboard" className="bg-blue-600 text-white px-4 py-2 rounded">Je suis apporteur d’affaires</a>
+        <a href="/admin" className="border border-blue-600 text-blue-600 px-4 py-2 rounded">Je suis administrateur</a>
+      </div>
+    </div>
+  );
+}

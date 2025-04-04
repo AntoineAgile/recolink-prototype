@@ -1,0 +1,8 @@
+export default function Admin() {
+  return (
+    <div className="p-8">
+      <h2 className="text-xl font-bold">Espace Administrateur</h2>
+      <p className="text-sm text-gray-500 mt-2">Gestion des apporteurs, commissions, parrainages...</p>
+    </div>
+  );
+}
